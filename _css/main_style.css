@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+
+/* 
+@media (min-width: 768px)
+@media (min-width: 1020px)
+@media (min-width: 1400px)
+*/
+
+
+h1, h6{
+    margin: 0px;   
+}
+
+.saw{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px; color: whitesmoke;
+    display: inline;
+    position: absolute;
+    left: 10%; bottom: 30%;
+}
+@media (min-width: 768px) {
+  .saw { 
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 30px; color: whitesmoke;
+    display: inline;
+    position: absolute;
+    left: 10%; bottom: 30%;
+  }
+}
+@media (min-width: 1020px) {
+  .saw { 
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 40px; color: whitesmoke;
+    display: inline;
+    position: absolute;
+    left: 10%; bottom: 30%;
+  }
+}
+ 
+@media (min-width: 1400px) {
+  .saw { 
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 60px; color: whitesmoke;
+    display: inline;
+    position: absolute;
+    left: 10%; bottom: 30%;
+  }
+}
+
+.bg{
+    /* background-image: url('../_images/ai3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; width: 100%; */
+    /* background-position: center; */
+    margin: 0px;
+
+
+    /* khj */
+    height: 100vh;
+    background-image: url('../_images/ai3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background: url('../_images/ai3.jpg') no-repeat absolute/cover;
+        
+}
+
+span{
+    font-size:30px; cursor:pointer; color: white;
+    position: absolute; top: 10px; left:10px;
+
+}
+
+@media (min-width: 768px) {
+  span{
+    font-size:30px; cursor:pointer; color: white;
+    position: absolute; top: 10px; left:10px;
+  }
+}
+@media (min-width: 1020px) {
+  span{
+    font-size:40px; cursor:pointer; color: white;
+    position: absolute; top: 10px; left:10px;
+  }
+}
+@media (min-width: 1400px) {
+  span{
+    font-size:50px; cursor:pointer; color: white;
+    position: absolute; top: 10px; left:10px;
+  }
+}
+
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0px;
+}
+  
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+  
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: white;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
